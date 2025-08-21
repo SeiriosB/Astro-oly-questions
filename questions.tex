@@ -1,1 +1,75 @@
+\documentclass{article}
 
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{enumitem} % Required for custom enumerate labels
+
+\title{Questions}
+% \subtitle{UENG201-Introduction to Materials Science}
+% The article class does not support the subtitle command. You can include this information in the title or as part of the document content.
+\author{Animesh Pradhan}
+
+\begin{document}
+\maketitle
+\section{Interstellar Radio}
+An astronomer looking for faint stars finds a strong and consistent radio signal from a very distant object on the ecliptic and tracks the source for four years. By analysing the ecliptic longitude data, he finds that the time dependence can be represented by a linear term and a periodic term. 
+
+\hrulefill
+\section*{1. Theoretical Framework}
+
+\begin{enumerate}
+    \item[(a)] The periodic (non-linear) component of an object's apparent motion is typically modeled by the function $f(t) = -A \cos(\lambda_\odot(t) - \lambda) + B \sin(\lambda_\odot(t) - \lambda)$. What physical phenomena and corresponding physical constants do the amplitudes \textbf{A} and \textbf{B} represent?
+
+    \item[(b)] For a typical, single, distant star, what values would you expect for A and B? Would you expect these amplitudes to change if you measured them in Year 1 versus Year 4 of a survey?
+
+    \item[(c)] Now, hypothesize the object is not a distant star but a body moving from the outer solar system towards the Sun. How would you expect the measured values of amplitudes A and B to change over time? Justify your answer.
+\end{enumerate}
+
+\hrulefill
+\section*{2. Data Interpretation}
+
+After removing the long-term linear drift, the astronomer analyzes the remaining periodic motion for Year 1 and Year 4. The best-fit amplitudes for the periodic model are found to be:
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Parameter} & \textbf{Fit for Year 1} & \textbf{Fit for Year 4} \\
+\hline
+Amplitude A (of the cosine term) & 20.49 arcseconds & 20.49 arcseconds \\
+Amplitude B (of the sine term)  & 0.500 arcseconds & 0.580 arcseconds \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1em} % Adds a little vertical space
+
+Furthermore, analysis of the object's drift yields the following:
+\begin{itemize}
+    \item The initial angular velocity (proper motion) in \textbf{Year 1} was $\mu_1 = 2.00$ arcseconds/year.
+    \item The instantaneous angular velocity measured during \textbf{Year 4} was $\mu_4 = 2.32$ arcseconds/year.
+\end{itemize}
+
+Use this highly precise data to determine the nature of the object's motion.
+
+\begin{enumerate}
+    \item[(a)] The amplitude of the cosine term is constant, but the amplitude of the sine term is increasing. Based on your answers in Part 1, what does this behavior definitively imply about the object and its distance?
+
+    \item[(b)] Using the change in amplitude B, calculate the ratio of the object's distance from the solar system in Year 4 compared to its distance in Year 1 ($d_4 / d_1$).
+
+    \item[(c)] An object with a constant transverse velocity should exhibit an apparent angular velocity that is inversely proportional to its distance ($\mu \propto 1/d$). Is the measured change in angular velocity from $\mu_1$ to $\mu_4$ consistent with the change in distance you calculated? Show your work.
+
+    \item[(d)] What is the final, unambiguous conclusion about this object's trajectory?
+\end{enumerate}
+
+\end{document}
