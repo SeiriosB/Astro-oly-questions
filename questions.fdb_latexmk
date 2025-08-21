@@ -1,12 +1,12 @@
 # Fdb version 4
-["lualatex"] 1755760784.62229 "/home/Animesh/Astro-oly-questions/questions.tex" "questions.pdf" "questions" 1755760785.34043 0
+["lualatex"] 1755790541.51455 "/home/Animesh/Astro-oly-questions/questions.tex" "questions.pdf" "questions" 1755790542.14814 0
   "/etc/texmf/tex/generic/config/language.dat" 1742685315 2774 23432d78ba890d76256b3f33c553a888 ""
   "/home/Animesh/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1755150781.84642 127314 9ecf3684c39cfc70af3bf4aa08c05ccb ""
   "/home/Animesh/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1755150782.15442 128286 8ede80404afe726f8b865628ebfd2b5d ""
   "/home/Animesh/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1755150782.09242 127657 1731cb293bd356875684e275b7ae7b0a ""
   "/home/Animesh/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc" 1755150782.04242 128908 c4859ea40b2798c49e80ca72b80825f6 ""
   "/home/Animesh/.texlive/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1755150781.74242 401589 e5dbf39fe65a9751e323e62b27ffb562 ""
-  "/home/Animesh/Astro-oly-questions/questions.tex" 1755760784.43565 4966 f4e7aff0df1e17c095a821458f5d25ae ""
+  "/home/Animesh/Astro-oly-questions/questions.tex" 1755790541.34544 5956 21314a17bee4c6bf313e623043ca44d9 ""
   "/usr/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1742685315 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1742685315 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
   "/usr/share/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf" 1742685315 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
@@ -49,6 +49,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1742685315 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1742685315 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1742685315 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1742685315 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1742685315 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1742685315 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1742685315 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
@@ -166,9 +167,9 @@
   "/usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1742685315 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1755150572 5311557 9da84c45f5b388655502706482323571 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1755150556 5585733 6bceb9154ada2045917b8ae574fa0e31 ""
-  "questions.aux" 1755760785.21826 659 1c388d42a483be4c4ff29f3c89bf9a68 "lualatex"
-  "questions.out" 1755760785.21826 560 c94c62044fde5bf5942119d7a98c877f "lualatex"
-  "questions.tex" 1755760784.43565 4966 f4e7aff0df1e17c095a821458f5d25ae ""
+  "questions.aux" 1755790542.02446 780 133f6ab90249042b06e10508ad15c089 "lualatex"
+  "questions.out" 1755790542.02546 690 f49543afea320fa460e0a1cfbee15ee4 "lualatex"
+  "questions.tex" 1755790541.34544 5956 21314a17bee4c6bf313e623043ca44d9 ""
   (generated)
   "questions.aux"
   "questions.log"

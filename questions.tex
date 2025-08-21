@@ -42,8 +42,15 @@ where $M_{BH}(t)$ is the black hole's current mass and $\lambda$ is a constant r
 
     \vspace{1em}
 
-    \item Now, consider a large cluster containing $N$ such galaxies. Black hole formation in the cluster is a continuous process, resulting in a population of SMBHs with ages uniformly distributed between $t=0$ and a maximum age $T$. Derive an expression for the total, instantaneous kinetic power, $P_{total}$, injected by the combined jets of this entire population. Express your answer in terms of $N, \epsilon, c, T$, and the masses $M_{BH}(T)$ (the mass of a black hole at age T) and $M_0$.
-    \item Assuming $T = \infty$, find the total, instantaneous kinetic power, $P_{total}$, injected by the combined jets of this entire population.
+    \item Now, consider a large cluster containing $N$ such galaxies. Black hole formation in the cluster was a continuous process, resulting in a population of SMBHs with ages uniformly distributed between $t=0$ and a maximum age $T$. Derive an expression for the total, instantaneous kinetic power, $P_{total}$, injected by the combined jets of this entire population. Express your answer in terms of $N, \epsilon, c, T$, and the masses $M_{BH}(T)$ (the mass of a black hole at age T) and $M_0$. Also, in the form of an implicit equation, derive the maximum age $T_{max}$ for which the total power is maximized, $P_{total}(T_{max})$.
 \end{enumerate}
 
+\subsection{Brief Solution}
+\begin{enumerate}
+    \item Integrating the logistic equation we get $M_{BH}(t) = \dfrac{M_{res}}{1+A e^{-\lambda t}}$, where $A = \dfrac{M_{res}}{M_0} - 1$
+    \item $ E_{total} = \int_0^\infty P_{jet}(t) \,dt = \int_0^\infty \epsilon \dot{M}_{acc}c^2 \,dt = \epsilon c^2 \int_0^\infty \frac{dM_{BH}}{dt} dt = \epsilon c^2 \int_{M_{BH}(0)}^{M_{BH}(\infty)} dM_{BH}$
+        \\ $ = \epsilon c^2 (M_{BH}(\infty) - M_{BH}(0)) = \epsilon c^2 (M_{res} - M_0)$
+    \item $ P_{total}(t) = \int_{0}^{T} \dfrac{N \epsilon c^2}{T} \dfrac{dM_{BH}}{dt} dt = \dfrac{N \epsilon c^2}{T} \int_{0}^{T} \dfrac{dM_{BH}}{dt} dt = \dfrac{N \epsilon c^2}{T} (M_{BH}(T) - M_{BH}(0))$
+          \\ $\dfrac{dP_{total}}{dT} = 0 \Rightarrow T_{max} \dot{M_{acc}}(T_{max}) = M_{BH}(T_{max}) - M_{BH}(0)$. This states that the total power is maximized when the instantaneous accretion rate of the oldest black holes is exactly equal to their average rate over their entire lifetimes.
+\end{enumerate}
 \end{document}
