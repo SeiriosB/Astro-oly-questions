@@ -29,7 +29,21 @@ An astronomer looking for faint stars finds a strong and consistent radio signal
 Total linear drift is the sum of that due to precession and proper motion. Since the precession rate is constant, the apparent angular velocity changes with time. The sin term corresponds to the parallax which increases, implying decreasing distance, while the cosine term corresponding to stellar aberration remains constant, confirming earth's motion to not be the cause of irregularities.  The ratio of the distance is simply inverse of the ratio of parallax, $0.500/0.580 = 0.862$ .
 The apparent angular velocities are $52.30''/yr - 50.30''/yr = 2.00''/yr$ and $52.62''/yr - 50.30''/yr = 2.32''/yr$. The ratio of these velocities is the same, at $0.862$. This indicates that the transverse velocities are the same for both year. Constant radial velocities imply that the object is unbounded to the sun, however, is moving towards the solar system at a constant rate.
 
-\section{}
+\section{Black Holes giveth and Black Holes taketh away}
+The growth of a supermassive black hole (SMBH) in a galaxy with a finite gas reservoir of total mass $M_{res}$ can be modeled as a self-limiting process. While mass continually accretes into the SMBH, powerful jets are ejected perpendicular to the accretion disk. The effective mass accretion rate, $\dot{M}_{acc}$, is described by the logistic equation:
+\[
+\dot{M}_{acc}(t) = \lambda M_{BH}(t) \left(1 - \frac{M_{BH}(t)}{M_{res}}\right)
+\]
+where $M_{BH}(t)$ is the black hole's current mass and $\lambda$ is a constant representing the initial growth rate. The fraction of the accreted mass-energy converted into both jets combined have a kinetic power given by $P_{jet} = \epsilon \dot{M}_{acc} c^2$, where $\epsilon$ is the jet efficiency. Assume mass of SMBH at time $t=0$ is $M_0$.
 
+\begin{enumerate}
+    \item Find the mass of the black hole at a given time $t$
+    \item Derive an expression for the total kinetic energy, $E_{total}$, that a single SMBH will ever inject into its host galaxy, in the form of jets, over its entire lifetime (from $t=0$ to $t=\infty$). Express your answer in terms of the energy efficiency $\epsilon$, the speed of light $c$, and the masses $M_0$ and $M_{res}$.
+
+    \vspace{1em}
+
+    \item Now, consider a large cluster containing $N$ such galaxies. Black hole formation in the cluster is a continuous process, resulting in a population of SMBHs with ages uniformly distributed between $t=0$ and a maximum age $T$. Derive an expression for the total, instantaneous kinetic power, $P_{total}$, injected by the combined jets of this entire population. Express your answer in terms of $N, \epsilon, c, T$, and the masses $M_{BH}(T)$ (the mass of a black hole at age T) and $M_0$.
+    \item Assuming $T = \infty$, find the total, instantaneous kinetic power, $P_{total}$, injected by the combined jets of this entire population.
+\end{enumerate}
 
 \end{document}
