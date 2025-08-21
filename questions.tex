@@ -23,53 +23,13 @@
 \begin{document}
 \maketitle
 \section{Interstellar Radio}
-An astronomer looking for faint stars finds a strong and consistent radio signal from a very distant object on the ecliptic and tracks the source for four years. By analysing the ecliptic longitude data, he finds that the time dependence can be represented by a linear term and a periodic term. 
+An astronomer looking for faint stars finds a strong and consistent radio signal from a very distant object on the ecliptic and tracks the source for four years. By analysing the ecliptic longitude data, he finds that its time dependence can be represented by a linear term and a periodic term, with a one year period. The total linear drift in the first year is $52.3''$. The same value in the fourth year(total drift for that year) is $52.62''$. The periodic term is a sinusoidal function of the ecliptic longitude of the sun with respect to the object, $\lambda_{rel}$. When expressed as a sum of sine and cosine terms with no phase shift, the sin term has an amplitude of $0.500''$ in the first year and $0.580''$ in the fourth year. Whereas the cosine term has an amplitude of $20.49''$ in both years. Take the general rate of precession to be a constant at $50.30''/yr$. State and explain all the effects which lead to these variations and find the ratio of the distance of the object from the solar system in Year 4 compared to Year 1. Also, find the ratio of apparent angular velocities in Year 4 compared to Year 1. Finally, use these ratios to conclude the nature of the object's motion. Assume radial motion of the object, if any, remains constant throughout the observation period.
 
-\hrulefill
-\section*{1. Theoretical Framework}
+\subsection{Brief Solution}
+Total linear drift is the sum of that due to precession and proper motion. Since the precession rate is constant, the apparent angular velocity changes with time. The sin term corresponds to the parallax which increases, implying decreasing distance, while the cosine term corresponding to stellar aberration remains constant, confirming earth's motion to not be the cause of irregularities.  The ratio of the distance is simply inverse of the ratio of parallax, $0.500/0.580 = 0.862$ .
+The apparent angular velocities are $52.30''/yr - 50.30''/yr = 2.00''/yr$ and $52.62''/yr - 50.30''/yr = 2.32''/yr$. The ratio of these velocities is the same, at $0.862$. This indicates that the transverse velocities are the same for both year. Constant radial velocities imply that the object is unbounded to the sun, however, is moving towards the solar system at a constant rate.
 
-\begin{enumerate}
-    \item[(a)] The periodic (non-linear) component of an object's apparent motion is typically modeled by the function $f(t) = -A \cos(\lambda_\odot(t) - \lambda) + B \sin(\lambda_\odot(t) - \lambda)$. What physical phenomena and corresponding physical constants do the amplitudes \textbf{A} and \textbf{B} represent?
+\section{}
 
-    \item[(b)] For a typical, single, distant star, what values would you expect for A and B? Would you expect these amplitudes to change if you measured them in Year 1 versus Year 4 of a survey?
-
-    \item[(c)] Now, hypothesize the object is not a distant star but a body moving from the outer solar system towards the Sun. How would you expect the measured values of amplitudes A and B to change over time? Justify your answer.
-\end{enumerate}
-
-\hrulefill
-\section*{2. Data Interpretation}
-
-After removing the long-term linear drift, the astronomer analyzes the remaining periodic motion for Year 1 and Year 4. The best-fit amplitudes for the periodic model are found to be:
-
-\begin{center}
-\begin{tabular}{|l|c|c|}
-\hline
-\textbf{Parameter} & \textbf{Fit for Year 1} & \textbf{Fit for Year 4} \\
-\hline
-Amplitude A (of the cosine term) & 20.49 arcseconds & 20.49 arcseconds \\
-Amplitude B (of the sine term)  & 0.500 arcseconds & 0.580 arcseconds \\
-\hline
-\end{tabular}
-\end{center}
-
-\vspace{1em} % Adds a little vertical space
-
-Furthermore, analysis of the object's drift yields the following:
-\begin{itemize}
-    \item The initial angular velocity (proper motion) in \textbf{Year 1} was $\mu_1 = 2.00$ arcseconds/year.
-    \item The instantaneous angular velocity measured during \textbf{Year 4} was $\mu_4 = 2.32$ arcseconds/year.
-\end{itemize}
-
-Use this highly precise data to determine the nature of the object's motion.
-
-\begin{enumerate}
-    \item[(a)] The amplitude of the cosine term is constant, but the amplitude of the sine term is increasing. Based on your answers in Part 1, what does this behavior definitively imply about the object and its distance?
-
-    \item[(b)] Using the change in amplitude B, calculate the ratio of the object's distance from the solar system in Year 4 compared to its distance in Year 1 ($d_4 / d_1$).
-
-    \item[(c)] An object with a constant transverse velocity should exhibit an apparent angular velocity that is inversely proportional to its distance ($\mu \propto 1/d$). Is the measured change in angular velocity from $\mu_1$ to $\mu_4$ consistent with the change in distance you calculated? Show your work.
-
-    \item[(d)] What is the final, unambiguous conclusion about this object's trajectory?
-\end{enumerate}
 
 \end{document}
